@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<script src="https://kit.fontawesome.com/3fac8839a2.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+                <h1 style="font-size: 50px; color: red;">MY <span style="color: white;">PORTFOLIO</span></h1></class>
+            <ul id="sidemenu">
+                <li><a class="link" href="#home">HOME</a></li>
+                <li><a class="link" href="#about">ABOUT</span></a></li>
+                <li><a class="link" href="#services">PROJECT</a></li>
+                <li><a class="link" href="#contact">CONTACT</span></a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                
+           
+        </nav>
+        <div class="header-text">
+            <h1 class="auto-type"></h1>
+        </div>
+    </div>
+</div>
+<!----------------------about-------------------------------------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aii2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle"> About<span style="color: red;"> Me</span></h1>
+
+                <p>As a passionate and motivated student in Artificial Intelligence and Data Science, I am eager to apply my analytical, programming, and problem-solving skills to real-world challenges. I seek a position where I can contribute to innovative projects, gain hands-on experience, collaborate with experienced professionals, and continue to grow my knowledge in web development, machine learning, data analysis, and AI-driven solutions. I am enthusiastic about leveraging my expertise to drive impactful results and continuously improve my skills in various cutting-edge technologies. My goal is to be part of a dynamic team that values creativity, continuous learning, and practical application of advanced data science and AI techniques.</p>
+                     
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skill">
+                    <ul>
+                        <li><span>Machine learning</span></li>
+                        <li><span>HTML/CSS</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>SQL</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certifications">
+                    <ul>
+                        <li><span>NPTL</span><br>Machine learning</li>
+                        <li><span>COURSERA</span><br>Introduction to Computer vision and Image processing</li>
+                        <li><span>EDX</span><br>Python for Datascience</li>
+                        <li><span>MICROSOFT</span><br>AI Fundamentals</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>10TH GRADE</span><br>ST.Thomas Vidyalayam<br>SCORE-85%</li>
+                        <li><span>12TH GRADE</span><br>ST.Thomas Vidyalayam<br>SCORE-87%</li>
+                        <li><span>Btech-Artificial intelligence and Datascience</span><br>Sri Sairam Engineering College<br>Score-79%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------Services----------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle"> My <span style="color: red;">Project</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-hexagon-nodes" style="color: #f40101;"></i>
+                <h2>AUTOMATED TRASH BOAT USING OBJECT DETECTION</h2>
+                <P>An Automated trash boat is a robotic system designed to collect waste from water bodies, utilizing advanced technologies such as object detection. The system employs the YOLO (You Only Look Once) algorithm for real-time object detection, enabling it to identify and locate trash in the water efficiently. It uses the COCO (Common Objects in Context)dataset, which provides labeled images for training the YOLO model to recognize various types of trash objects. The boat is powered by an ESP32 microcontroller, which controls the system, processes the image data from cameras, and drives the boat’s motors for navigation. This setup allows for autonomous waste collection, reducing the need for human intervention and improving environmental cleanup efforts in water bodies.</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-hexagon-nodes" style="color: #f40101;"></i>
+                <h2>DIABETES PREDICTION USING MACHINE LEARNING</h2>
+                <P> The Diabetes Prediction project uses Machine Learning techniques to predict the likelihood of a person developing diabetes based on various health-related factors. The system employs the Support Vector Machine(SVM) algorithm, a powerful classification technique, to analyze and classify data. It typically uses a dataset that includes features like age, body mass index (BMI), blood pressure, glucose levels, and family history of diabetes. These features are input into the SVM model, which learns to identify patterns and relationships in the data that indicate the risk of diabetes. The project is implemented using Python, leveraging libraries like scikit-learn for SVM and pandas for data manipulation. The result is an automated prediction tool that can assist in early detection and prevention of diabetes by providing individuals with insights based on their health data.</P>
+                
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!-----------------contact---------------------------->
+<div id="contact">
+    <div class="containers">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact  <span style="color: red;">Me</span></h1>
+                <p> <i class="fa-solid fa-paper-plane" style="color: #e60a15;"></i>thaaranisenthilt@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #f31212;"></i>9080716383</p>
+                <div class="social-icons">
+                    <a href=" https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=sri-pavathaarani-s-a0a627232"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=sri-pavathaarani-s-a0a627232" ></a><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=sri-pavathaarani-s-a0a627232" ></a><i class="fa-brands fa-github"></i></a>
+
+
+                </div>
+                <a href="images/my cv2.pdf"download class="btn">DOWNLOAD RESUME</a>
+
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="SUBMIT" class="btn">SUBMIT</button>
+                </form>
+                <span id="mes"></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @ Sripavathaarani.Hope you love this<i class="fa-solid fa-heart"></i></p>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzye-Dju8bqDTeMvVwKIjVohYfQXsjCHLgE7rn1Q5iSdkHgOZMB-H2I_78hMc-eX6KX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mes= document.getElementById("mes")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            mes.innerHTML="Message sent sucessfully"
+            setTimeout(function(){
+                mes.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<style>
+    .white-text {
+      color:white;
+    }
+    .small-text {
+    font-size: 0.8em;
+
+  }
+  
+  </style>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: [
+        "I'm <span class='white-text'>SRI PAVATHAARANI</span><br>from<span class='small-text,white-text'> Chennai</span>"  
+         
+      ],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: false,
+      showCursor:false
+    });
+  </script>
+  
+
+ 
+
+</body>
+</html>
